@@ -270,6 +270,10 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+.main-text {
+ margin-top: 20px;
+}
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -4377,6 +4381,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
+  .navbar-middle {
+    left: 50% !important
+  }
 }
 .navbar-default {
   background-color: #f8f8f8;
@@ -5095,6 +5102,15 @@ a.thumbnail.active {
 .media-left,
 .media > .pull-left {
   padding-right: 10px;
+}
+.margin-5 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.margin-10 {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .media-left,
 .media-right,
